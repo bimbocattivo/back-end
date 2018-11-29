@@ -1,0 +1,80 @@
+.body {
+    padding: 0;
+    margin: 0;
+    background-color:#ffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        background-color: lightblue;
+    }
+}
+
+.main_content{
+   
+}
+
+.menu,.header{
+    
+    background-color:#f1f1f1;
+    height: 20%;
+    padding: 20px;
+    text-align: center;
+
+}
+.leftmenu{
+margin-top: 30px;
+
+}
+
+#avatargrup{
+    float: right;  
+}
+
+.avatarright, .fa-user{
+    float: left;
+    font-size: 20px;
+}
+
+
+
+
+.far{
+margin-right: 15px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: rgba(253, 142, 77, 0.815);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+#preventivi{
+    float: right;
+    margin-right: 15px;
+}
