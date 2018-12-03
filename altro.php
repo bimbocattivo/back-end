@@ -25,7 +25,7 @@
 
 
 <div class="navbar">
-  <a href="#">Zona giorno</a> 
+  <a href="PageStart.php">Zona giorno</a> 
   <a href="cucina.php">Cucina</a> 
   <a href="servizi.php">Servizi</a> 
   <a class="active" href="altro.php">Altro</a>

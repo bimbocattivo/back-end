@@ -1,5 +1,7 @@
 <?php
 ini_set('display_errors',"1");
+session_start();
+setlocale(LC_TIME, "it_IT");
 /* DATABASE CONFIGURATION */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
@@ -30,5 +32,5 @@ die();
 }
 
 }
-
+//session_destroy();
 ?>
